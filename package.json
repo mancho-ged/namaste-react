@@ -1,0 +1,15 @@
+{
+  "name": "namaste-one",
+  "version": "1.0.0",
+  "description": "This is Namaste React by Manana Gedevanishvili",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Manana Gedevanishvili",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
