@@ -1,6 +1,6 @@
 # namaste-react 🚀
 
-# Parcel
+# Parcel 📦
 
 - Dev Build
 - Local Server
