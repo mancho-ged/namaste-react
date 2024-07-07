@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "This is Namaste React by Manana Gedevanishvili",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "keywords": [],
@@ -13,6 +15,7 @@
     "process": "^0.11.10"
   },
   "dependencies": {
+    "cowsay": "^1.6.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },

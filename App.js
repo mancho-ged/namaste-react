@@ -1,18 +1,36 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { think, SQUIRREL } from 'cowsay';
 
-const parent = React.createElement('div', { id: 'parent' }, [
-  React.createElement('div', { id: 'child' }, [
-    React.createElement('h1', {}, 'This is Namaste React 🚀'),
-    React.createElement('h2', {}, "I'm an h2 tag"),
-  ]),
-  React.createElement('div', { id: 'child2' }, [
-    React.createElement('h3', {}, "I'm an h3 tag"),
-    React.createElement('h4', {}, "I'm an h4 tag"),
-  ]),
-]);
+const Title = () => (
+  <h1 id="heading" className="heading" tabIndex="5">
+    Namaste React with JSX hello World here and there
+  </h1>
+);
 
-console.log(parent); //object
+const num = 10000;
+
+const HeadingComponent4 = () => (
+  <div className="container">
+    <Title />
+    <Title></Title>
+    {Title()}
+    {num}
+    <h2>{100 + 200}</h2>
+    {console.log('adfdsssa')}
+    <h2 className="heading">Namaste React Functional Component</h2>
+  </div>
+);
+
+console.log(
+  think({
+    text: 'grazing in the browser',
+    cow: SQUIRREL,
+    eyes: 'pp',
+    tongue: ';;',
+  })
+);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(parent);
+root.render(<HeadingComponent4 />);
+console.log(root);
