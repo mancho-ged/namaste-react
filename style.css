@@ -28,6 +28,11 @@
   flex-wrap: wrap;
 }
 
+.res-container > a {
+  color: #000;
+  text-decoration: none;
+}
+
 .res-card {
   width: 300px;
   height: auto;
@@ -75,4 +80,23 @@
 
 .search-btn {
   cursor: pointer;
+}
+
+.menu-card img {
+  width: 200px;
+  height: auto;
+  margin-top: auto;
+}
+
+.menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-start;
+  padding-left: 0;
+}
+
+.menu-card {
+  width: 200px;
+  display: grid;
 }
